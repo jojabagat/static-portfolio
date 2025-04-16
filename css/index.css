@@ -1,0 +1,111 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    /* font: 400 15px/1.8 "Gill Sans MT"; */
+    color: #777;
+}
+
+.bg-img-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../../static-portfolio/images/header-1.jpg");
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.top-caption {
+    position: relative;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font: "Gill Sans MT";
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.bottom-caption-head,
+.bottom-caption-nav {
+    position: relative;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+.bottom-caption-head {
+    top: 60%;
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+.bottom-caption-nav {
+    top: 52%;
+}
+
+.bottom-caption-nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.col-link:hover {
+    background-color: #777;
+}
+
+.col-link {
+    padding: 5px;
+}
+
+.container {
+    margin: 100px 0 300px 0;
+}
+
+.col-img {
+    height: 50px;
+    width: 50px;
+}
+
+.col-text {
+    text-align: center;
+}
+
+.col-text-head {
+    font-size: 30px;
+}
+
+.col-text-content {
+    font-size: 16px;
+}
+
+.parallax {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../../static-portfolio/images/image-2.jpg");
+    height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.parallax .col-text-head {
+    margin: 50px 40px;
+}
+
+.parallax .col-text-content {
+    margin: 0 90px;
+}
+
+ul {
+    list-style-image: url("../../static-portfolio/images/list.svg");
+}
+
+li {
+    font-size: 20px;
+}
