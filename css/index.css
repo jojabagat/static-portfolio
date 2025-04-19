@@ -62,7 +62,7 @@ html {
 }
 
 .container {
-    margin: 100px 0 300px 0;
+    margin: 100px 0 275px 0;
 }
 
 .col-img {
@@ -82,10 +82,16 @@ html {
     font-size: 16px;
 }
 
+.col-text-content a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .parallax {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url("../../static-portfolio/images/image-2.jpg");
     height: 400px;
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,7 +101,8 @@ html {
 }
 
 .parallax .col-text-head {
-    margin: 50px 40px;
+    font-size: 30px;
+    margin: 50px 40px 0 40px;
 }
 
 .parallax .col-text-content {
@@ -103,9 +110,10 @@ html {
 }
 
 ul {
-    list-style-image: url("../../static-portfolio/images/list.svg");
+    list-style-image: url("../../static-portfolio/images/gears-solid.svg");
 }
 
 li {
-    font-size: 20px;
+    font-size: 16px;
+    text-align: left;
 }
