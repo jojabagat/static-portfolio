@@ -28,7 +28,7 @@ jobs:
         aws-region: ${{ env.AWS_REGION }}
 
     - name: Sync repo to S3 bucket
-      run: aws s3 sync . s3://${{ secrets.S3_BUCKET_NAME }}/ --delete --exclude ".git*" --exact-timestamps
+      run: aws s3 sync . s3://${{ secrets.S3_BUCKET_NAME }}/ --delete --exclude ".git*" --exact-timestamps --size-only
       # --delete = deletes files present in dest but not in source
 
     - name: Invalidate CloudFront distribution
